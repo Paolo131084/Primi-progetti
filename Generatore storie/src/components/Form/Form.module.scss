@@ -1,0 +1,30 @@
+.box_input {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box_button {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+
+  .button_icon {
+    border-radius: 50%;
+    box-shadow: 3px 3px #0c0115;
+    ImSpinner {
+      color: yellow;
+    }
+  }
+  .button_icon:hover {
+    background: yellow;
+  }
+}
+.box_prompt {
+  color: antiquewhite;
+  font-size: smaller;
+  font-style: italic;
+  text-align: start;
+  margin: 10px 5px;
+}

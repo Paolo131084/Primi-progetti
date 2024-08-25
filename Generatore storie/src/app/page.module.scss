@@ -1,0 +1,15 @@
+.main {
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: rgb(7, 0, 36);
+  background: linear-gradient(
+    332deg,
+    rgba(7, 0, 36, 0.6560749299719888) 10%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(154, 3, 173, 1) 100%
+  );
+  text-align: center;
+}
